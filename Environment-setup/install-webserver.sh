@@ -6,23 +6,26 @@ sudo apt-get install -y apache2 git php5 php5-mysql php5-curl mysql-client curl
 
 
 
-sudo git clone https://github.com/Langenoir1878/Application-setup.git
+#sudo git clone https://github.com/Langenoir1878/Application-setup.git
+#updated the repo link on Nov 18, 2015
+sudo git clone https://github.com/Langenoir1878/MP2FOLDER.git
 
-mv ./Application-setup/images /var/www/html/images
-mv ./Application-setup/*.png /var/www/html
-mv ./Application-setup/*.js /var/www/html
-mv ./Application-setup/*.css /var/www/html
-mv ./Application-setup/*.php /var/www/html
+# mv * to /var/...directory
+mv ./MP2FOLDER/Application-setup/images /var/www/html/images
+mv ./MP2FOLDER/Application-setup/*.png /var/www/html
+mv ./MP2FOLDER/Application-setup/*.js /var/www/html
+mv ./MP2FOLDER/Application-setup/*.css /var/www/html
+mv ./MP2FOLDER/Application-setup/*.php /var/www/html
 
-mv ./Application-setup/*.eot /var/www/html
-mv ./Application-setup/*.svg /var/www/html
-mv ./Application-setup/*.ttf /var/www/html
-mv ./Application-setup/*.woff /var/www/html
-mv ./Application-setup/*.woff2 /var/www/html
+mv ./MP2FOLDER/Application-setup/*.eot /var/www/html
+mv ./MP2FOLDER/Application-setup/*.svg /var/www/html
+mv ./MP2FOLDER/Application-setup/*.ttf /var/www/html
+mv ./MP2FOLDER/Application-setup/*.woff /var/www/html
+mv ./MP2FOLDER/Application-setup/*.woff2 /var/www/html
 
-mv ./Application-setup/css var/www/html
-mv ./Application-setup/js var/www/html
-mv ./Application-setup/fonts var/www/html
+mv ./MP2FOLDER/Application-setup/css var/www/html
+mv ./MP2FOLDER/Application-setup/js var/www/html
+mv ./MP2FOLDER/Application-setup/fonts var/www/html
 
 
 
